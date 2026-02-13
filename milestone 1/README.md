@@ -1,4 +1,4 @@
-<img width="1906" height="908" alt="signup2" src="https://github.com/user-attachments/assets/948e2715-ab0a-46da-b916-a24367e54d4f" /># 🚀 Milestone 1 – User Authentication System
+# 🚀 Milestone 1 – User Authentication System
 
 ## 📌 Project Title
 
