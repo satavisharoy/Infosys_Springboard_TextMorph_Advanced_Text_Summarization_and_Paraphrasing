@@ -1,72 +1,52 @@
 Milestone 1 – User Authentication System
 
 📌 Project Title
-
 TextMorph – Advanced Text Summarization and Paraphrasing
 
-Description
-
-In this milestone, a secure user authentication system was developed as the foundation of the TextMorph project. The system allows users to securely sign up, log in, recover passwords and access a protected dashboard.
-
+🧾 Description
+In this milestone, a secure user authentication system was developed as the foundation of the TextMorph project. The system allows users to securely sign up, log in, recover passwords, and access a protected dashboard.
 The application is built using Streamlit for frontend development, JWT (JSON Web Token) for authentication and session management, SQLite for database storage, and Ngrok for exposing the local application to the internet.
-
 This authentication module will be integrated with text summarization and paraphrasing features in later milestones.
 
-Features Implemented
+✅ Features Implemented
+  - User signup with field validation
+  - Email format validation
+  - Alphanumeric password validation
+  - Secure password storage using hashing
+  - Login authentication using JWT tokens
+  - Session management using JWT
+  - Dashboard access after successful login
+  - Forgot password functionality using security questions
+  - Password reset with validation
+  - SQLite database integration
+  - Ngrok integration for public access
+  - Improved UI with custom styling
 
-User Signup with field validation
+🛠️ Technologies Used
+  - Python
+  - Streamlit
+  - SQLite
+  - JWT (JSON Web Token)
+  - Ngrok
 
-Email format validation
-
-Alphanumeric password validation
-
-Secure password storage using hashing
-
-Login authentication using JWT tokens
-
-Session management using JWT
-
-Dashboard access after successful login
-
-Forgot Password functionality using security questions
-
-Password reset with validation
-
-SQLite database integration
-
-Ngrok integration for public access
-
-Improved UI with custom styling
-
-Technologies Used
-
-Python
-
-Streamlit
-
-SQLite
-
-JWT (JSON Web Token)
-
-Ngrok
-
-How to Run the Application
-Step 1: Install Dependencies
+▶️ How to Run the Application
+Step 1 – Install Dependencies
 
 Install required libraries:
 
 pip install streamlit pyjwt sqlite3 pyngrok
 
-Step 2: Run Streamlit Application
+Step 2 – Run Streamlit Application
+
 streamlit run app.py
 
-Step 3: Expose Application Using Ngrok
+Step 3 – Expose Application Using Ngrok
 
 Create an account at https://ngrok.com/
 
-Download and install ngrok.
+Download and install ngrok
 
-Copy your authentication token from ngrok dashboard.
+Copy your authentication token from the ngrok dashboard
 
 Authenticate ngrok:
 
@@ -80,12 +60,14 @@ ngrok http 8501
 
 Use the generated public URL to access the application.
 
-⚠️ Note: The ngrok authentication token is not included in this repository for security reasons.
+Note: The ngrok authentication token is not included in this repository for security reasons.
 
-Screenshots
+📸 Screenshots
+
 Login Page
 
 <img width="1909" height="909" alt="login" src="https://github.com/user-attachments/assets/eb5b935d-3c20-4de9-b5e1-2637ecc42221" />
+
 
 Sign Up Page
 
@@ -93,9 +75,11 @@ Sign Up Page
 
 <img width="1906" height="908" alt="signup2" src="https://github.com/user-attachments/assets/072020af-5f5c-4b2f-a50f-2cf24650e920" />
 
+
 Dashboard Page
 
 <img width="1911" height="914" alt="dash" src="https://github.com/user-attachments/assets/9ece34cd-feb9-47d1-b0dd-8f4f5908d08b" />
+
 
 Forgot Password Page
 
@@ -107,9 +91,4 @@ Forgot Password Page
 
 <img width="1907" height="909" alt="resetpass" src="https://github.com/user-attachments/assets/dc634c94-ba1f-4770-b6c8-52c53789a86b" />
 
-Folder Structure
-milestone1/
-│
-├── app.py
-├── milestone1.ipynb
-└── README.md
+
