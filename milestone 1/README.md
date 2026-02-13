@@ -9,41 +9,30 @@ TextMorph – Advanced Text Summarization and Paraphrasing
 In this milestone, a secure user authentication system was developed as the foundation of the TextMorph project. The system allows users to securely sign up, log in, recover passwords, and access a protected dashboard. The application is built using Streamlit for frontend development, JWT (JSON Web Token) for authentication and session management, SQLite for database storage, and Ngrok for exposing the local application to the internet. This authentication module will be integrated with text summarization and paraphrasing features in later milestones.
 
 ## ✅ Features Implemented
-    - User signup with field validation
-    - Email format validation
-    - Alphanumeric password validation
-    - Secure password storage using hashing
 
-Login authentication using JWT tokens
+- User signup with field validation
+- Email format validation
+- Alphanumeric password validation
+- Secure password storage using hashing
+- Login authentication using JWT tokens
+- Session management using JWT
+- Dashboard access after successful login
+- Forgot password functionality using security questions
+- Password reset with validation
+- SQLite database integration
+- Ngrok integration for public access
+- Improved UI with custom styling
 
-Session management using JWT
+## 🛠️ Technologies Used
+- Python
+- Streamlit
+- SQLite
+- JWT (JSON Web Token)
+- Ngrok
 
-Dashboard access after successful login
+## ▶️ How to Run the Application
 
-Forgot password functionality using security questions
-
-Password reset with validation
-
-SQLite database integration
-
-Ngrok integration for public access
-
-Improved UI with custom styling
-
-🛠️ Technologies Used
-
-Python
-
-Streamlit
-
-SQLite
-
-JWT (JSON Web Token)
-
-Ngrok
-
-▶️ How to Run the Application
-Step 1 – Install Dependencies
+### Step 1 – Install Dependencies
 
 Install required libraries:
 
