@@ -1,26 +1,18 @@
-🚀 Milestone 1 – User Authentication System
+# 🚀 Milestone 1 – User Authentication System
 
-📌 Project Title
+## 📌 Project Title
 
 TextMorph – Advanced Text Summarization and Paraphrasing
 
-🧾 Description
+## 🧾 Description
 
-In this milestone, a secure user authentication system was developed as the foundation of the TextMorph project. The system allows users to securely sign up, log in, recover passwords, and access a protected dashboard.
+In this milestone, a secure user authentication system was developed as the foundation of the TextMorph project. The system allows users to securely sign up, log in, recover passwords, and access a protected dashboard. The application is built using Streamlit for frontend development, JWT (JSON Web Token) for authentication and session management, SQLite for database storage, and Ngrok for exposing the local application to the internet. This authentication module will be integrated with text summarization and paraphrasing features in later milestones.
 
-The application is built using Streamlit for frontend development, JWT (JSON Web Token) for authentication and session management, SQLite for database storage, and Ngrok for exposing the local application to the internet.
-
-This authentication module will be integrated with text summarization and paraphrasing features in later milestones.
-
-✅ Features Implemented
-
-User signup with field validation
-
-Email format validation
-
-Alphanumeric password validation
-
-Secure password storage using hashing
+## ✅ Features Implemented
+    - User signup with field validation
+    - Email format validation
+    - Alphanumeric password validation
+    - Secure password storage using hashing
 
 Login authentication using JWT tokens
 
