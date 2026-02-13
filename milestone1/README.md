@@ -1,5 +1,6 @@
 Milestone 1 – User Authentication System
-Project Title
+
+📌 Project Title
 
 TextMorph – Advanced Text Summarization and Paraphrasing
 
