@@ -124,14 +124,19 @@ The dashboard computes:
 
 Below are selected screenshots demonstrating the key functionalities implemented during **Milestone 2**:
 
-* 🔐 User Registration Interface
-* 🔑 Secure Login Page
 * 📧 OTP Email & Verification Screen
-* 🔄 Password Reset Workflow
-* 📊 Readability Analysis Dashboard
-* 📈 Readability Metrics Visualization
-* 🎨 Updated Professional UI Theme
+<img width="1911" height="907" alt="otp" src="https://github.com/user-attachments/assets/f45a1f00-66d1-4b16-aaeb-2907b3023a99" />
 
-*(yet to be added.)*
+
+* 📊 Readability Analysis Dashboard
+<img width="1919" height="909" alt="read" src="https://github.com/user-attachments/assets/acf99c4d-bf4f-4bc3-8c9f-1988c84a966b" />
+
+  
+* 📈 Readability Metrics Visualization
+<img width="1910" height="910" alt="m1" src="https://github.com/user-attachments/assets/9547767f-d7d8-4e8f-b39b-c39bbebacb0c" />
+
+<img width="1918" height="910" alt="m2" src="https://github.com/user-attachments/assets/df9f3dff-74cb-4498-9574-e2a66a9cb11c" />
+
+<img width="1914" height="914" alt="m3" src="https://github.com/user-attachments/assets/4bdd1dc9-8086-4219-8e38-77146dfc4af4" />
 
 ---
