@@ -1,4 +1,4 @@
-# **Milestone 3 – Advanced NLP Feature Integration 🚀**
+![s6](https://github.com/user-attachments/assets/749d1d9f-3abd-4d7c-87e7-6165b9504542)# **Milestone 3 – Advanced NLP Feature Integration 🚀**
 
 ## **Overview 📌**
 
@@ -220,9 +220,19 @@ Add screenshots of the following modules to demonstrate the working of the syste
   <img width="1919" height="911" alt="s1" src="https://github.com/user-attachments/assets/237eaaf5-17db-4d3a-bd86-a62ef348cb2a" />
 
 * OTP Verification
-  
+  ![s2](https://github.com/user-attachments/assets/94dc6eb5-0c0b-4b5a-905c-e01663a24dcc)
+
 * Readability Dashboard
+  ![s6](https://github.com/user-attachments/assets/fc7d5726-fef3-42c9-bfc2-7bdad78e9f1e)
+  ![s7](https://github.com/user-attachments/assets/40119e14-ff59-4b0e-97ba-2cf6bff8b3bb)
+
 * Text Summarization Module
+  ![s4](https://github.com/user-attachments/assets/88788fb2-e43c-484d-aadf-cd806f977e4b)
+
 * Paraphrasing Module
+  ![s8](https://github.com/user-attachments/assets/875b786a-e551-4e37-b609-496bb2ed8edf)
+
 * Dataset Augmentation Module
-* User Dashboard Interface
+  ![s5](https://github.com/user-attachments/assets/99634fd5-6611-43cf-bec6-c6e3f9a213ad)
+
+  ![s3](https://github.com/user-attachments/assets/95502aeb-cb50-4128-b3d4-1bf82b416233)
