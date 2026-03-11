@@ -1,4 +1,4 @@
-![s6](https://github.com/user-attachments/assets/749d1d9f-3abd-4d7c-87e7-6165b9504542)# **Milestone 3 – Advanced NLP Feature Integration 🚀**
+**Milestone 3 – Advanced NLP Feature Integration 🚀**
 
 ## **Overview 📌**
 
