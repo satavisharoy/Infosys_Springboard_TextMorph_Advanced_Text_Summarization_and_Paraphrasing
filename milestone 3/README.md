@@ -2,10 +2,7 @@
 
 ## **Overview 📌**
 
-Milestone 3 focuses on integrating advanced Natural Language Processing (NLP) capabilities into the Infosys LLM platform. The primary goal of this milestone is to enhance the system by adding intelligent text processing features such as summarization, paraphrasing, and dataset augmentation.
-
-These features allow users to efficiently analyze, transform, and generate text while maintaining security through OTP authentication and a user-friendly interface. The system ensures seamless interaction between the NLP models and the web-based interface developed using Streamlit.
-
+Milestone 3 focuses on integrating advanced Natural Language Processing (NLP) capabilities into the Infosys LLM platform. The primary goal of this milestone is to enhance the system by adding intelligent text processing features such as summarization, paraphrasing and dataset augmentation. These features allow users to efficiently analyze, transform and generate text while maintaining security through OTP authentication and a user-friendly interface. The system ensures seamless interaction between the NLP models and the web-based interface developed using Streamlit.
 This milestone builds upon the previous authentication and readability modules by integrating additional AI-powered tools that assist users in processing textual data more effectively.
 
 ---
@@ -220,26 +217,12 @@ This milestone significantly improves the platform's capabilities and prepares t
 Add screenshots of the following modules to demonstrate the working of the system:
 
 * Login Page
+  <img width="1919" height="911" alt="s1" src="https://github.com/user-attachments/assets/237eaaf5-17db-4d3a-bd86-a62ef348cb2a" />
+
 * OTP Verification
+  
 * Readability Dashboard
 * Text Summarization Module
 * Paraphrasing Module
 * Dataset Augmentation Module
 * User Dashboard Interface
-
-Example format:
-
-```
-![Login Page](screenshots/login.png)
-
-![Summarizer Module](screenshots/summarizer.png)
-
-![Paraphraser Module](screenshots/paraphraser.png)
-
-![Readability Dashboard](screenshots/readability.png)
-```
-
----
-
-If you want, I can also give you **a much stronger README (same content but structured exactly how GitHub projects and Infosys reviewers expect)** which will make your **milestone submission look like a professional industry project.**
-
