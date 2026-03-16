@@ -1,214 +1,178 @@
-**Milestone 3 – Advanced NLP Feature Integration 🚀**
+# Infosys Springboard Virtual Internship 6.0 – Batch 13
 
-## **Overview 📌**
+# Milestone 3 – AI-Based Text Summarization and Paraphrasing
 
-Milestone 3 focuses on integrating advanced Natural Language Processing (NLP) capabilities into the Infosys LLM platform. The primary goal of this milestone is to enhance the system by adding intelligent text processing features such as summarization, paraphrasing and dataset augmentation. These features allow users to efficiently analyze, transform and generate text while maintaining security through OTP authentication and a user-friendly interface. The system ensures seamless interaction between the NLP models and the web-based interface developed using Streamlit.
-This milestone builds upon the previous authentication and readability modules by integrating additional AI-powered tools that assist users in processing textual data more effectively.
+## Project Title
 
----
+**TextMorph – Advanced Text Summarization and Paraphrasing**
 
-# **Objectives 🎯**
+## Internship
 
-The key objectives of Milestone 3 are:
+**Infosys Springboard Virtual Internship 6.0 – Batch 13**
 
-* Develop an **Advanced Text Summarization Engine**
-* Implement a **Paraphrasing Engine**
-* Perform **Dataset Augmentation** for improved training data
-* Apply **Model Fine-Tuning** using the project dataset
-* Integrate all modules with:
+## Milestone
 
-  * OTP Authentication
-  * Readability Dashboard
-  * Improved UI/UX interface
+**Milestone 3 – AI-Based Text Processing System**
 
----
 
-# **System Features ⚙️**
+# Project Overview
 
-## **1. Advanced Text Summarizer**
+In **Milestone 3**, the core functionality of the **TextMorph project** was implemented by integrating **Artificial Intelligence-based Natural Language Processing (NLP) models** for **Text Summarization and Paraphrasing**.
 
-The summarization module allows users to generate concise summaries from lengthy text inputs while preserving the essential meaning and key information.
+This milestone builds on the secure authentication system developed in **Milestone 1 and Milestone 2**. After successful login, users can access advanced text processing tools that allow them to summarize long text and generate paraphrased versions of the content.
 
-### Functionality
+The goal of this milestone is to help users quickly understand large textual information and rewrite content in a different form while maintaining the original meaning.
 
-* Accepts large text input from the user
-* Processes the input through a summarization model
-* Generates a shorter and meaningful summary
 
-### Benefits
+# Objective of Milestone 3
 
-* Reduces lengthy documents into essential points
-* Improves content readability
-* Saves time for users when reviewing large texts
+The main objectives of this milestone were to:
 
-The summarizer module is accessible from the **sidebar navigation menu** after successful login.
+• Implement an **AI-based text summarization module**
+• Develop a **text paraphrasing system**
+• Integrate NLP features into the existing authenticated dashboard
+• Provide a simple and interactive user interface
+• Enable users to process large text efficiently
 
----
 
-## **2. Paraphrasing Engine**
+# Technologies Used
 
-The paraphrasing module rewrites input text while maintaining its original meaning. It helps generate alternative sentence structures without altering the semantic context.
+The following technologies were used to implement this milestone:
 
-### Functionality
+• **Python** – Core programming language
+• **Streamlit** – Web interface for user interaction
+• **Transformers (HuggingFace)** – Pretrained NLP models
+• **NLTK / SpaCy** – Text preprocessing
+• **SQLite Database** – User authentication data storage
+• **JWT (JSON Web Token)** – Secure session authentication
+• **bcrypt** – Password hashing
+• **Ngrok** – Public deployment for demonstration
 
-* Takes user input text
-* Processes the text using a paraphrasing model
-* Produces rewritten text with the same meaning
 
-### Benefits
+# Features Implemented
 
-* Helps in content rewriting
-* Generates multiple variations of text
-* Useful for writing assistance and dataset expansion
+## Text Summarization Module
 
-The paraphrasing engine is integrated into the platform through the **Paraphrase section of the dashboard**.
-
----
-
-## **3. Dataset Augmentation**
-
-Dataset augmentation is implemented to increase the size and diversity of the training dataset by generating variations of existing text samples.
-
-### Functionality
-
-* Uses NLP techniques to generate variations of input text
-* Produces multiple augmented samples from original text
-* Expands the dataset used for model training
-
-### Benefits
-
-* Improves model generalization
-* Enhances training dataset quality
-* Helps prevent overfitting during model training
-
-The dataset augmentation feature is accessible through the **Dataset Augmentation module** in the application.
-
----
-
-## **4. Model Fine-Tuning**
-
-Fine-tuning is performed to adapt pre-trained NLP models to the specific project dataset.
+The system generates a **short and meaningful summary** from long paragraphs or documents.
 
 ### Process
 
-1. Load pre-trained NLP models
-2. Train the models using the project dataset
-3. Optimize parameters for improved performance
+1. User enters a long text paragraph.
+2. The text is processed using a **pretrained NLP summarization model**.
+3. The system extracts the most important information.
+4. A concise summary is generated and displayed.
+
+### Benefits
+
+• Saves time by reducing reading effort
+• Highlights key information
+• Helps users understand large text quickly
+
+
+## Text Paraphrasing Module
+
+The **Paraphrasing feature** rewrites the given text while preserving the original meaning.
+
+### Process
+
+1. User inputs a sentence or paragraph.
+2. The NLP model analyzes sentence structure.
+3. Alternative wording and sentence structures are generated.
+4. The paraphrased text is displayed to the user.
 
 ### Advantages
 
-* Improves summarization accuracy
-* Enhances paraphrasing quality
-* Makes models more effective for domain-specific text
+• Helps rewrite content in a new form
+• Useful for academic writing and content creation
+• Reduces plagiarism by generating unique text
 
----
 
-# **Authentication System 🔐**
+## Integration with Authentication System
 
-To ensure secure access, the system uses an **OTP-based authentication mechanism**.
+The NLP modules are integrated with the **secure authentication system built in earlier milestones**.
 
 ### Workflow
 
-1. User enters registered email
-2. System generates a **One-Time Password (OTP)**
-3. OTP is sent to the user's registered email
-4. User enters the OTP for verification
+• Only **logged-in users** can access the summarization and paraphrasing tools
+• **JWT authentication** ensures secure session handling
+• The **user dashboard** provides access to all AI tools
 
-This mechanism improves the security of the application and prevents unauthorized access.
 
----
+# Application Workflow
 
-# **Readability Dashboard 📊**
+The overall system works as follows:
 
-The readability dashboard evaluates the complexity and readability of user input text.
+1. User registers using the **Signup Page**.
+2. Email verification and security checks are performed.
+3. User logs in with valid credentials.
+4. JWT authentication grants access to the **User Dashboard**.
+5. User enters text for **Summarization or Paraphrasing**.
+6. The NLP model processes the text.
+7. The generated result is displayed on the screen.
 
-### Features
+# Pages Implemented
 
-* Displays readability metrics
-* Helps users analyze the difficulty level of text
-* Provides insights to improve content clarity
+The following pages were developed using **Streamlit**:
 
-The readability module works alongside the summarizer and paraphraser to improve overall text quality.
+### Signup Page
 
----
+Allows new users to create an account securely.
 
-# **Improved User Interface 🖥️**
+### Login Page
 
-The application interface has been designed to provide a smooth and intuitive user experience.
+Allows existing users to log in using authentication credentials.
 
-### UI Improvements
+### User Dashboard
 
-* Sidebar navigation using **Streamlit Option Menu**
-* Organized module structure
-* Clean and responsive layout
-* Easy navigation between different NLP tools
+Displays available NLP tools after successful login.
 
-This ensures users can easily access all modules within the platform.
+### Text Summarization Page
 
----
+Allows users to generate summaries from long text.
 
-# **Technologies Used 💻**
+### Text Paraphrasing Page
 
-### Programming Language
+Allows users to rewrite text with different wording.
 
-* Python
+### Admin Dashboard
 
-### Framework
-
-* Streamlit
-
-### Libraries and Tools
-
-* Transformers
-* PyTorch
-* NLTK
-* Scikit-learn
-* bcrypt (for password hashing)
-* smtplib (for OTP email sending)
-
-### Database
-
-* SQLite / Local database module for user data storage
+Allows administrators to monitor registered users.
 
 ---
 
-# **Application Workflow 🔄**
+# How to Run the Application
 
-The overall workflow of the application is as follows:
+### Step 1 – Install Required Libraries
 
-1. User registers or logs into the platform
-2. OTP authentication verifies the user identity
-3. NLP models are initialized
-4. User accesses modules through the sidebar:
+```bash
+pip install streamlit transformers torch nltk spacy bcrypt pyjwt pyngrok
+```
 
-   * Readability Analysis
-   * Text Summarization
-   * Paraphrasing
-   * Dataset Augmentation
-   * History Tracking
-5. Processed outputs are displayed on the dashboard
+### Step 2 – Run the Application
 
----
+```bash
+streamlit run app.py
+```
 
-# **Challenges Faced ⚠️**
+### Step 3 – Access the Application
 
-During the development of Milestone 3, several challenges were encountered:
+Open the Streamlit local URL in your browser or expose the application using **Ngrok** for public access.
 
-* Integrating multiple NLP models within a single application
-* Managing efficient model loading and initialization
-* Implementing secure OTP-based authentication
-* Maintaining consistent UI design while adding new modules
-* Managing Streamlit session state for user authentication and navigation
 
-These challenges were resolved through modular coding practices and optimized model integration.
+# Future Scope
 
----
+The TextMorph project can be further enhanced by adding:
 
-# **Conclusion ✅**
+• **Grammar correction module**
+• **Multi-language text summarization**
+• **AI chatbot for text assistance**
+• **Cloud deployment using AWS or Azure**
+• **Advanced NLP model optimization**
 
-Milestone 3 successfully integrates advanced NLP functionalities into the Infosys LLM platform. The system now supports summarization, paraphrasing, dataset augmentation, and readability analysis within a secure and user-friendly environment.
+# Conclusion
 
-This milestone significantly improves the platform's capabilities and prepares the system for further expansion in upcoming milestones.
+Milestone 3 successfully integrates **AI-based text summarization and paraphrasing capabilities** into the TextMorph system. These NLP modules allow users to quickly analyze and rewrite large textual content while maintaining meaning and context.
+Combined with the secure authentication system developed in previous milestones, this milestone completes the **core functionality of the TextMorph project** and demonstrates a practical application of **Artificial Intelligence and Natural Language Processing**.
 
 ---
 
